@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://vercel.com/aditya-rajputs-projects-13f71a52/job-hunt',
+    origin:'https://job-hunt-aditya-rajputs-projects-13f71a52.vercel.app/',
     credentials:true
 }
 
